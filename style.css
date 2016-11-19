@@ -1,0 +1,81 @@
+a.name:link { color: white; padding: 10px; }
+a.name:visited { color: white; padding: 10px; }
+a.name:hover { color: white; padding: 10px; background-color: rgba(255, 255, 255, 0.25); border-radius: 5px; }
+a.name:active { color: rgba(255, 255, 255, 0.8); padding: 10px; background-color: rgba(255, 255, 255, 0.25); border-radius: 5px; }
+
+a.login:link { color: white; padding: 10px; background-color: rgba(255, 255, 255, 0.25); border-radius: 5px; font-size: 15px; }
+a.login:visited { color: white; padding: 10px; background-color: rgba(255, 255, 255, 0.25); border-radius: 5px; font-size: 15px; }
+a.login:hover { color: white; padding: 10px; background-color: rgba(255, 255, 255, 0.5); border-radius: 5px; font-size: 15px; }
+a.login:active { color: rgba(255, 255, 255, 0.8); padding: 10px; background-color: rgba(255, 255, 255, 0.5); border-radius: 5px; font-size: 15px; }
+
+a.click-links:link { color: white; }
+a.click-links:visited { color: white }
+a.click-links:hover { color: white; }
+a.click-links:active { color: white; }
+
+
+.main {
+	cursor: default;
+	background-color: rgba(146, 238, 146, 0.05);
+}
+
+.top-bar {	
+	margin-bottom: 0;
+	
+	border-radius: 0px 0px 5px 5px;
+	background-color: darkgreen;
+}
+
+.project-name {
+	margin: 15px;
+	
+	font-size: 35px;
+}
+
+.menu {
+	padding: 5px 0px 5px 0px;
+		
+	color: white;
+	border-radius: 0px 0px 10px 10px;
+	background: darkgreen;
+	
+	box-shadow: 0px 5px 5px rgba(122, 162, 168, 0.25);
+}
+
+#menu-fixed { max-width: 180px; }
+
+.not_menu {
+	margin-top: 15px;
+	padding: 15px;
+	
+	border-radius: 3px;
+	border-color: darkgreen;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	
+	box-shadow: 0px 0px 10px rgba(122, 162, 168, 0.25);
+}
+
+.live-information { background-color: #ffff8a; }
+
+.menu-item {
+	cursor: pointer;
+	
+	padding: 5px 15px 5px 15px;
+	margin-bottom: 10px;
+	
+	border-radius: 3px 3px 3px 3px;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+.menu-item:hover { background-color: rgba(255, 255, 255, 0.5); transform: scale(1);}
+.menu-item:active { background-color: rgba(255, 255, 255, 0.5); transform: scale(0.95);}
+
+
+@media screen and (max-width: 1199px) {
+	#menu-fixed { max-width: 150px; }
+}
+
+@media screen and (max-width: 999px) {
+	#menu-fixed { max-width: 120px; }
+}

@@ -135,6 +135,7 @@ a.click-links:active { color: white; }
 	
 	cursor: pointer;
 }
+
 @media screen and (max-width: 767px) {
 	.sub-menu { display: none; }
 	.page-content { margin-top: 85px; }
@@ -153,6 +154,8 @@ a.click-links:active { color: white; }
 
 .sub-menu-small {
 	display: none;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	
 	z-index: 10;
 	position: fixed;
@@ -165,7 +168,7 @@ a.click-links:active { color: white; }
 	border-radius: 0px 0px 5px 5px;
 	color: white;
 	
-	padding: 15px;
+	padding: 15px 15px 0px 15px;
 	font-size: 20px;
 }
 
@@ -178,3 +181,4 @@ a.click-links:active { color: white; }
 	background-color: rgba(255, 255, 255, 0.25);
 }
 .sub-menu-item.sub {margin-left: 50px;}
+.marg-bot-15 { margin-bottom: 15px; }

@@ -113,8 +113,12 @@ a.click-links:active { color: white; }
 	.page-content { margin-top: 70px; }
 }
 
+.menu-item-large { display: block; }
+.menu-item-small { display: none; }
 @media screen and (max-width: 991px) {
 	#menu-fixed { max-width: 120px; }
+	.menu-item-large { display: none; }
+	.menu-item-small { display: block; }
 }
 
 @media screen and (max-width: 820px) {

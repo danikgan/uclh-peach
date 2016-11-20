@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title> Group 37 </title>
+		<title> reFresh </title>
 		
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,19 +23,21 @@
 	
 	<body class="main">
 		
-		<div id="top-bar" style="position: fixed; top: 0; left: 0; right: 0; z-index: 5;">
+		<div class="container-fluid top-bar" style="position: fixed; top: 0; left: 0; right: 0; z-index: 5;">
 			<div style="display: inline-block; float: left;">
 				<div class="project-name">
-					<img src="files/uclh-logo.png" id="logo">
-					<a class="name" href="index.html">
+					<img src="files/uclh-logo.png" style="height: 50px;">
+					<a class="name" href="index.html" title="Main Page">
+						
+						
 						Group 37
 					</a>
 				</div>
 			</div>
 			
-			<div id="top-bar-right" align="right">
-				<div class="project-name right">
-					<a class="main-menu" href="index.html" style="border-radius: 5px 0px 0px 5px;">
+			<div align="right" style="display: inline-block; float: right;">
+				<div class="project-name">
+					<a class="main-menu" href="index.html">
 						Overview
 					</a>
 					<a class="main-menu" href="index.html">
@@ -50,8 +52,8 @@
 					<a class="main-menu" href="index.html">
 						Prototypes
 					</a>
-					<a class="main-menu" href="index.html" style="border-radius: 0px 5px 5px 0px;">
-						Reports
+					<a class="main-menu" href="index.html">
+						Requirements
 					</a>
 				</div>
 			</div>
@@ -59,34 +61,33 @@
 		
 		
 		<div class="container">
-			
-			<div class="sub-menu">
-				<!-- This section is called "Menu" -->
-				<div class="menu col-sm-2" id="menu-fixed">
-					<a href="review.html" class="click-links"> 
-						<div class="menu-item" style="border-radius: 5px 5px 0px 0px;">
-							Our project
-						</div>
-					</a>
-					
-					<a href="research.html" class="click-links">
-						<div class="menu-item">
-							Our client
-						</div>
-					</a>
-					
-					<a href="files.html" class="click-links"> 
-						<div class="menu-item" style="margin-bottom: 10px; border-radius: 0px 0px 5px 5px;">
-							About us
-						</div>
-					</a>
+			<!-- This section is called "Menu" -->
+			<div class="menu col-sm-2" id="menu-fixed" style="position: fixed; top: 84px; left: auto; z-index: 5;">
+				<div class="menu-item">
+					<a href="review.html" class="click-links"> Review </a>
+				</div>
+				
+				<div class="menu-item">
+					<a href="research.html" class="click-links"> Research </a>
+				</div>
+				
+				<div class="menu-item">
+					<a href="tests.html" class="click-links"> Tests </a>
+				</div>
+				
+				<div class="menu-item">
+					<a href="results.html" class="click-links"> Results </a>
+				</div>
+				
+				<div class="menu-item">
+					<a href="files.html" class="click-links"> Files </a>
 				</div>
 			</div>
 			
 			<div class="col-sm-2"></div>
 			
 			
-			<div class="col-sm-10 page-content">
+			<div class="col-sm-10" style="margin-top: 84px;">
 				<!-- This section is called "Content" -->
 				<div class="not_menu" style="margin-bottom: 15px;">
 					<div>

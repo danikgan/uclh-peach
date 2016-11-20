@@ -3,26 +3,10 @@ a.name:visited { color: white; padding: 10px; }
 a.name:hover { color: white; padding: 10px; background-color: rgba(255, 255, 255, 0.25); border-radius: 5px; }
 a.name:active { color: rgba(255, 255, 255, 0.8); padding: 10px; background-color: rgba(255, 255, 255, 0.25); border-radius: 5px; }
 
-
-
-a.main-menu:link { 
-	padding: 10px;
-	background-color: rgba(255, 255, 255, 0.25); 
-	font-size: 18px;
-	color: white;
-}
-a.main-menu:visited { 
-	color: white;
-	background-color: rgba(255, 255, 255, 0.25);
-}
-a.main-menu:hover { 
-	color: white; 
-	background-color: rgba(255, 255, 255, 0.5);  
-}
-a.main-menu:active { 
-	color: rgba(255, 255, 255, 0.8); 
-	background-color: rgba(255, 255, 255, 0.5);  
-}
+a.login:link { color: white; padding: 10px; background-color: rgba(255, 255, 255, 0.25); border-radius: 5px; font-size: 15px; }
+a.login:visited { color: white; padding: 10px; background-color: rgba(255, 255, 255, 0.25); border-radius: 5px; font-size: 15px; }
+a.login:hover { color: white; padding: 10px; background-color: rgba(255, 255, 255, 0.5); border-radius: 5px; font-size: 15px; }
+a.login:active { color: rgba(255, 255, 255, 0.8); padding: 10px; background-color: rgba(255, 255, 255, 0.5); border-radius: 5px; font-size: 15px; }
 
 a.click-links:link { color: white; }
 a.click-links:visited { color: white }
@@ -35,11 +19,9 @@ a.click-links:active { color: white; }
 	background-color: rgba(146, 238, 146, 0.05);
 }
 
-#top-bar {
-	display: block;
-	height: 85px;
-	
+.top-bar {	
 	margin-bottom: 0;
+	
 	border-radius: 0px 0px 5px 5px;
 	background-color: rgba(19, 121, 130, 1);
 }
@@ -49,9 +31,6 @@ a.click-links:active { color: white; }
 	
 	font-size: 35px;
 }
-.project-name.right { margin-top: 25px; }
-
-#logo { height: 50px; }
 
 .menu {
 	padding: 5px 0px 5px 0px;
@@ -63,14 +42,7 @@ a.click-links:active { color: white; }
 	box-shadow: 0px 5px 5px rgba(122, 162, 168, 0.25);
 }
 
-#menu-fixed { 
-	max-width: 180px;
-	
-	position: fixed;
-	top: 85px;
-	left: auto;
-	z-index: 5;
-}
+#menu-fixed { max-width: 180px; }
 
 .not_menu {
 	margin-top: 15px;
@@ -85,50 +57,25 @@ a.click-links:active { color: white; }
 	box-shadow: 0px 0px 10px rgba(122, 162, 168, 0.25);
 }
 
+.live-information { background-color: #ffff8a; }
+
 .menu-item {
 	cursor: pointer;
 	
 	padding: 5px 15px 5px 15px;
+	margin-bottom: 10px;
 	
-	border-radius: 0px;
+	border-radius: 3px 3px 3px 3px;
 	background-color: rgba(255, 255, 255, 0.25);
 }
 .menu-item:hover { background-color: rgba(255, 255, 255, 0.5); transform: scale(1);}
 .menu-item:active { background-color: rgba(255, 255, 255, 0.5); transform: scale(0.95);}
-
-.page-content { margin-top: 85px; }
 
 
 @media screen and (max-width: 1199px) {
 	#menu-fixed { max-width: 150px; }
 }
 
-@media screen and (max-width: 1000px) {	
-	a.main-menu:link { font-size: 15px; }
-	.project-name { font-size: 25px; }
-	.project-name.right { margin-top: 20px; }
-	#logo { height: 35px; }
-	#top-bar { height: 70px; }
-	#menu-fixed { top: 70px; }
-	.page-content { margin-top: 70px; }
-}
-
 @media screen and (max-width: 991px) {
 	#menu-fixed { max-width: 120px; }
-}
-
-@media screen and (max-width: 820px) {
-	#logo { display: none; }
-}
-
-
-
-.sub-menu { display: block; }
-#top-bar-right { display: inline-block; float: right; }
-@media screen and (max-width: 768px) {
-	.sub-menu { display: none; }
-	.page-content { margin-top: 85px; }
-	#top-bar-right { display: none; }
-	
-	//#logo { display: block; }
 }

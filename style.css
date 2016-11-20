@@ -132,6 +132,8 @@ a.click-links:active { color: white; }
 #menu-svg {
 	margin: 17px;
 	height: 35px;
+	
+	cursor: pointer;
 }
 @media screen and (max-width: 767px) {
 	.sub-menu { display: none; }
@@ -140,4 +142,38 @@ a.click-links:active { color: white; }
 	#top-bar-right-small { display: inline-block; }
 	
 	//#logo { display: block; }
+}
+
+
+
+
+
+
+
+
+.sub-menu-small {
+	display: none;
+	
+	z-index: 10;
+	position: fixed;
+	top: 70px;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	
+	background: rgba(19, 133, 144, 1);
+	border-radius: 0px 0px 5px 5px;
+	color: white;
+	
+	padding: 15px;
+	font-size: 20px;
+}
+
+.sub-menu-item {
+	cursor: pointer;
+	padding: 5px 15px 5px 15px;
+	margin: 15px;
+	
+	border-radius: 0px;
+	background-color: rgba(255, 255, 255, 0.25);
 }

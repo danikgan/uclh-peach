@@ -125,7 +125,7 @@ a.click-links:active { color: white; }
 
 .sub-menu { display: block; }
 #top-bar-right { display: inline-block; float: right; }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.sub-menu { display: none; }
 	.page-content { margin-top: 85px; }
 	#top-bar-right { display: none; }

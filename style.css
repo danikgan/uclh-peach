@@ -125,10 +125,19 @@ a.click-links:active { color: white; }
 
 .sub-menu { display: block; }
 #top-bar-right { display: inline-block; float: right; }
+#top-bar-right-small { 
+	display: none; 
+	float: right;
+}
+#menu-svg {
+	margin: 17px;
+	height: 35px;
+}
 @media screen and (max-width: 767px) {
 	.sub-menu { display: none; }
 	.page-content { margin-top: 85px; }
 	#top-bar-right { display: none; }
+	#top-bar-right-small { display: inline-block; }
 	
 	//#logo { display: block; }
 }

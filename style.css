@@ -182,7 +182,35 @@ a.click-links:active { color: white; }
 	margin: 15px;
 	
 	border-radius: 5px;
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(255, 255, 255, 0.5);
 }
-.sub-menu-item.sub {margin-left: 50px;}
+.sub-menu-item.sub {margin-left: 50px; background-color: rgba(255, 255, 255, 0.25);}
 .marg-bot-15 { margin-bottom: 15px; }
+
+
+
+
+
+
+a.tag:link {
+	padding: 3px;
+	color: white;
+	background-color: rgba(19, 121, 130, 1);
+	
+	border: 1px solid white;
+	border-radius: 5px;
+}
+a.tag:visited { 
+	color: white; 
+	background-color: rgba(19, 121, 130, 1);
+}
+a.tag:hover { 
+	color: white;
+	background-color: rgba(19, 121, 130, 0.8);
+}
+a.tag:active {
+	background-color: rgba(19, 121, 130, 0.8);
+}
+
+
+li.sub-li {margin-left: 15px;}

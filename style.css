@@ -23,6 +23,7 @@ a.main-menu:active {
 	color: rgba(255, 255, 255, 0.8); 
 	background-color: rgba(255, 255, 255, 0.5);  
 }
+.main-menu.active:link {background-color: rgba(255, 255, 255, 0.5);}
 
 a.click-links:link { color: white; }
 a.click-links:visited { color: white }
@@ -95,6 +96,7 @@ a.click-links:active { color: white; }
 }
 .menu-item:hover { background-color: rgba(255, 255, 255, 0.5); transform: scale(1);}
 .menu-item:active { background-color: rgba(255, 255, 255, 0.5); transform: scale(0.95);}
+.menu-item.active {background-color: rgba(255, 255, 255, 0.5);}
 
 .page-content { margin-top: 85px; }
 

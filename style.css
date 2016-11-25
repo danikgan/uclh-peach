@@ -235,3 +235,8 @@ li.sub-li {margin-left: 15px;}
 
 
 
+.mockup-dg {max-width: 100px;}
+.show-mockup-dg {max-width: 100%; display: none;}
+
+.mockup-sm {max-width: 100px;}
+.show-mockup-sm {max-width: 100%; display: none;}

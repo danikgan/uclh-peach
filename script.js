@@ -41,24 +41,12 @@ $(document).ready(function(){
         $(".show-mockup-01").css("display", "none");
         $(".show-mockup-02").css("display", "none");
         $(".show-mockup-03").css("display", "none");
-        
-        $(".show-mockup-ho").css("display", "none");
-        $(".show-mockup-lo").css("display", "none");
-        $(".show-mockup-pa").css("display", "none");
-        $(".show-mockup-ps").css("display", "none");
-        $(".show-mockup-sm2").css("display", "none");
     });
     $(".mockup-01").click(function(){
         $(".show-mockup-01").css("display", "block");
         $(".show-mockup-00").css("display", "none");
         $(".show-mockup-02").css("display", "none");
         $(".show-mockup-03").css("display", "none");
-        
-        $(".show-mockup-ho").css("display", "none");
-        $(".show-mockup-lo").css("display", "none");
-        $(".show-mockup-pa").css("display", "none");
-        $(".show-mockup-ps").css("display", "none");
-        $(".show-mockup-sm2").css("display", "none");
     });
     
     $(".mockup-02").click(function(){
@@ -66,32 +54,15 @@ $(document).ready(function(){
         $(".show-mockup-00").css("display", "none");
         $(".show-mockup-01").css("display", "none");
         $(".show-mockup-03").css("display", "none");
-        
-        $(".show-mockup-ho").css("display", "none");
-        $(".show-mockup-lo").css("display", "none");
-        $(".show-mockup-pa").css("display", "none");
-        $(".show-mockup-ps").css("display", "none");
-        $(".show-mockup-sm2").css("display", "none");
     });
     $(".mockup-03").click(function(){
         $(".show-mockup-03").css("display", "block");
         $(".show-mockup-00").css("display", "none");
         $(".show-mockup-01").css("display", "none");
         $(".show-mockup-02").css("display", "none");
-        
-        $(".show-mockup-ho").css("display", "none");
-        $(".show-mockup-lo").css("display", "none");
-        $(".show-mockup-pa").css("display", "none");
-        $(".show-mockup-ps").css("display", "none");
-        $(".show-mockup-sm2").css("display", "none");
     });
     
     $(".mockup-ho").click(function(){
-        $(".show-mockup-03").css("display", "none");
-        $(".show-mockup-00").css("display", "none");
-        $(".show-mockup-01").css("display", "none");
-        $(".show-mockup-02").css("display", "none");
-        
         $(".show-mockup-ho").css("display", "block");
         $(".show-mockup-lo").css("display", "none");
         $(".show-mockup-pa").css("display", "none");
@@ -100,11 +71,6 @@ $(document).ready(function(){
     });
     
     $(".mockup-lo").click(function(){
-        $(".show-mockup-03").css("display", "none");
-        $(".show-mockup-00").css("display", "none");
-        $(".show-mockup-01").css("display", "none");
-        $(".show-mockup-02").css("display", "none");
-        
         $(".show-mockup-ho").css("display", "none");
         $(".show-mockup-lo").css("display", "block");
         $(".show-mockup-pa").css("display", "none");
@@ -113,11 +79,6 @@ $(document).ready(function(){
     });
     
     $(".mockup-pa").click(function(){
-        $(".show-mockup-03").css("display", "none");
-        $(".show-mockup-00").css("display", "none");
-        $(".show-mockup-01").css("display", "none");
-        $(".show-mockup-02").css("display", "none");
-        
         $(".show-mockup-ho").css("display", "none");
         $(".show-mockup-lo").css("display", "none");
         $(".show-mockup-pa").css("display", "block");
@@ -126,11 +87,6 @@ $(document).ready(function(){
     });
     
     $(".mockup-ps").click(function(){
-        $(".show-mockup-03").css("display", "none");
-        $(".show-mockup-00").css("display", "none");
-        $(".show-mockup-01").css("display", "none");
-        $(".show-mockup-02").css("display", "none");
-        
         $(".show-mockup-ho").css("display", "none");
         $(".show-mockup-lo").css("display", "none");
         $(".show-mockup-pa").css("display", "none");
@@ -139,11 +95,6 @@ $(document).ready(function(){
     });
     
     $(".mockup-sm2").click(function(){
-        $(".show-mockup-03").css("display", "none");
-        $(".show-mockup-00").css("display", "none");
-        $(".show-mockup-01").css("display", "none");
-        $(".show-mockup-02").css("display", "none");
-        
         $(".show-mockup-ho").css("display", "none");
         $(".show-mockup-lo").css("display", "none");
         $(".show-mockup-pa").css("display", "none");

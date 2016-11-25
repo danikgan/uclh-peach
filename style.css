@@ -245,4 +245,34 @@ li.sub-li {margin-left: 15px;}
 .ui-mockups {margin: 15px;display: inline-block;vertical-align: top;}
 .ui-mockups:hover {transform: scale(1.25)};
 
+/*.mockup-00 {width: 100px;height: 100px;} doesn't work for some reason*/
+.show-mockup-00 {max-width: 100%; display: block;}
+
+.mockup-01 {width: 100px;height: 100px;}
+.show-mockup-01 {max-width: 100%; display: none;}
+
+.mockup-02 {width: 100px;height: 100px;}
+.show-mockup-02 {max-width: 100%; display: none;}
+
+.mockup-03 {width: 100px;height: 100px;}
+.show-mockup-03 {max-width: 100%; display: none;}
+
+
+
+
+.mockup-ho {width: 100px;height: 100px;}
+.show-mockup-ho {max-width: 100%; display: none;}
+
+.mockup-lo {width: 100px;height: 100px;}
+.show-mockup-lo {max-width: 100%; display: none;}
+
+.mockup-pa {width: 100px;height: 100px;}
+.show-mockup-pa {max-width: 100%; display: none;}
+
+.mockup-ps {width: 100px;height: 100px;}
+.show-mockup-ps {max-width: 100%; display: none;}
+
+.mockup-sm2 {width: 100px;height: 100px;}
+.show-mockup-sm2 {max-width: 100%; display: none;}
+
 

@@ -280,3 +280,14 @@ li.sub-li {margin-left: 15px;}
 .show-mockup-sm2 {max-width: 100%; display: none; max-height: 80%;}
 
 
+
+
+
+.td-pad {
+	padding: 3px 5px 3px 5px;
+    border-collapse: collapse;
+}
+.main-row {background-color: #4848ae;color: white;}
+.sub-main-row {background-color: #e5e5e5;}
+
+

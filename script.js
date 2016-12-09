@@ -101,4 +101,130 @@ $(document).ready(function(){
         $(".show-mockup-ps").css("display", "none");
         $(".show-mockup-sm2").css("display", "block");
     });
+    
+    
+    
+    
+    
+    
+    $(".mockup-dg1").click(function(){
+        $(".show-mockup-dg1").css("display", "block");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg2").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "block");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg3").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "block");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg4").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "block");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg5").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "block");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg6").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "block");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg7").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "block");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg8").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "block");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg9").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "block");
+        $(".show-mockup-dg10").css("display", "none");
+    });
+        $(".mockup-dg10").click(function(){
+        $(".show-mockup-dg1").css("display", "none");
+        $(".show-mockup-dg2").css("display", "none");
+        $(".show-mockup-dg3").css("display", "none");
+        $(".show-mockup-dg4").css("display", "none");
+        $(".show-mockup-dg5").css("display", "none");
+        $(".show-mockup-dg6").css("display", "none");
+        $(".show-mockup-dg7").css("display", "none");
+        $(".show-mockup-dg8").css("display", "none");
+        $(".show-mockup-dg9").css("display", "none");
+        $(".show-mockup-dg10").css("display", "block");
+    });
 });

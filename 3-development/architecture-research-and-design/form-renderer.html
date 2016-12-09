@@ -204,9 +204,9 @@
 				<!-- This section is called "Content" -->
 				<div class="not_menu" style="margin-bottom: 15px;">
 					<div>
-						<div align="right">Updated: 09/12/2016</div>
+						<div align="right">Updated: 04/12/2016</div>
 						<h3>
-							<a href="../architecture-research-and-design.html" class="tag">Architecture Research and Design</a>: Design Guide
+							<a href="../architecture-research-and-design.html" class="tag">Architecture Research and Design</a>: Form Renderer
 						</h3> <br>
 						
 						<h4>Problems and Solutions</h4>
@@ -221,145 +221,44 @@
 									<th class="td-pad" style="font-size: smaller;"><center>Reasoning</center></th>
 								</tr>
 								<tr>
-									<th class="td-pad" style="font-weight: normal; font-size: smaller;">Show code</th>
-									<th class="td-pad" style="font-weight: normal; font-size: smaller;">ReactJS framework</th>
-									<th class="td-pad" style="font-weight: normal; font-size: smaller;">It is the best library to specify each component separately. Although, it is not the best in terms of writing “end-to-end” application, we do not need such. Additionally, it is very commonly used allowing greater support by third-parties.</th>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">User interface (UI)</th>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">Basic HTML and CSS</th>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">This will be a web-page without any fancy-looking design features just to illustrate basic function of the features. The design class and component will be added by other teams.</th>
 								</tr>
 								<tr>
-									<th class="td-pad" style="font-weight: normal; font-size: smaller;">Show compilation result of the running code</th>
-									<th class="td-pad" style="font-weight: normal; font-size: smaller;">ReactJS framework</th>
-									<th class="td-pad" style="font-weight: normal; font-size: smaller;">Same reasons as above stated.</th>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">Connection with the markup</th>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">Python and NodeJS</th>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">To connect to the file we use BeautifulSoup from Python, and NodeJS Request-Cheerio libraries. This is the only solution that have worked.</th>
 								</tr>
 							</table>
 						</p>
 						<p>
-							Additionally to the above stated, we have chosen to use Bootstrap 3 as a main framework to maintain the general look of the Design Guide website. More about the reasons in Technical Research.
+							Although it was not mentioned in our initial Background Research requirements, after connecting to the markup file, the data is analysed and sent to a txt-file. This is where we use jQuery  to load the content of the txt-file to our HTML. Thus, one more problem&solution is:
+						</p>
+						<p>
+							<table border="1" style="min-width: 100%;">
+								<tr class="sub-main-row">
+									<th class="td-pad" style="font-size: smaller;"><center>Name of feature</center></th>
+									<th class="td-pad" style="font-size: smaller;"><center>Solution</center></th>
+									<th class="td-pad" style="font-size: smaller;"><center>Reasoning</center></th>
+								</tr>
+								<tr>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">Read txt-file</th>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">jQuery</th>
+									<th class="td-pad" style="font-weight: normal; font-size: smaller;">Simplest and easiest solution.</th>
+								</tr>
+							</table>
 						</p> <br>
 						
 						<h4>Overall Solution</h4>
 						<p>
-							Prior to any development and after researching the website, we have produced some mockup pictures of the sitemap and menu features to better illustrate the website between the team-members and the client. Here are the examples:
-						</p>
-						<p>
-							<em>Click on any picture to expand.</em>
+							
 						</p>
 						
-						<div>
-							<div class="ui-mockups">
-								<img src="../../0-files/mockups/design-guide.png" class="mockup-dg">
-							</div>
-							<div class="ui-mockups">
-								<img src="../../0-files/mockups/site-map.png" class="mockup-sm">
-							</div>
-						</div>
-												
-						<br><div style="text-decoration: underline;">Expanded View</div><br>
-						
-						<center>
-							<img src="../../0-files/mockups/design-guide.png" class="show-mockup-dg">
-							<img src="../../0-files/mockups/site-map.png" class="show-mockup-sm">
-						</center> <br>
-						
-						<p>
-							Later, our team has been provided with a menu prototype which was needed to be filled with the content. In order to best illustrate the website, this is the screenshot from the main page:
-						</p>
-						<center><img src="../architecture-research-and-design/file-1.png" class="show-mockup"></center>
-						<p>
-							<br>
-							The menu at the left is the prototype provided. It is expanding the menu once clicked on the parent section as follows:
-						</p>
-						<p>
-							<em>Click on any picture to expand.</em>
-						</p>
-						
-						<div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-2.png" class="mockup-dg">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-3.png" class="mockup-sm">
-							</div>
-						</div>
-												
-						<br><div style="text-decoration: underline;">Expanded View</div><br>
-						
-						<center>
-							<img src="../architecture-research-and-design/file-2.png" class="show-mockup-dg">
-							<img src="../architecture-research-and-design/file-3.png" class="show-mockup-sm">
-						</center> <br>
-						
-						<p>
-							As a part of our contribution, our team is in charge of fixing bugs and performance issues. At the moment, however, the menu bar is optimised for a variety of devices, including touchscreen, and respective resolutions, including of those in mobile devices. This is an example of menu optimised for screens with lower resolution:
-						</p>
-						<center><img src="../architecture-research-and-design/file-4.png" class="show-mockup"></center>
-						
-						<p>
-							<br>
-							Our team was filling each section of the menu to the extent possible. For example, we have typography, colours, logos, buttons and much more available live on the website screenshots of which have been placed below:
-						</p>
-						<p>
-							<em>Click on any picture to expand.</em>
-						</p>
-						
-						<div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-5.png" class="mockup-dg1">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-6.png" class="mockup-dg2">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-7.png" class="mockup-dg3">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-8.png" class="mockup-dg4">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-9.png" class="mockup-dg5">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-10.png" class="mockup-dg6">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-11.png" class="mockup-dg7">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-12.png" class="mockup-dg8">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-13.png" class="mockup-dg9">
-							</div>
-							<div class="ui-mockups">
-								<img src="../architecture-research-and-design/file-14.png" class="mockup-dg10">
-							</div>
-						</div>
-												
-						<br><div style="text-decoration: underline;">Expanded View</div><br>
-						
-						<center>
-							<img src="../architecture-research-and-design/file-5.png" class="show-mockup-dg1">
-							<img src="../architecture-research-and-design/file-6.png" class="show-mockup-dg2">
-							<img src="../architecture-research-and-design/file-7.png" class="show-mockup-dg3">
-							<img src="../architecture-research-and-design/file-8.png" class="show-mockup-dg4">
-							<img src="../architecture-research-and-design/file-9.png" class="show-mockup-dg5">
-							<img src="../architecture-research-and-design/file-10.png" class="show-mockup-dg6">
-							<img src="../architecture-research-and-design/file-11.png" class="show-mockup-dg7">
-							<img src="../architecture-research-and-design/file-12.png" class="show-mockup-dg8">
-							<img src="../architecture-research-and-design/file-13.png" class="show-mockup-dg9">
-							<img src="../architecture-research-and-design/file-14.png" class="show-mockup-dg10">
-						</center> <br>
-						<p>
-							A lot more information will be added in the future, when necessary content and documentation are created.
-						</p> <br>
 						
 						<h4>Performance Summary</h4>
 						<p>
-							The website is live and accessible to anyone interested in it, including our client. However, we have encountered a few bugs to be fixed in the next term:
-							<li>When accessing any of the “Components” section, the menu becomes unresponsive, thus, only the logo of the website can be used to go back to the home page.</li>
-							<li>Styles of the content do not correspond to the styles of the website.</li>
-							<li>“Show code” button has not been implemented and will require further installation of ReactJS algorithms and logic.</li>
-							<li>Some links, for instance “Show code”, lead to the official forum of Bootstrap-React community.</li>
-							<li>New React object can only be uploaded / updated manually.</li>
+							
 						</p>
 					</div>
 				</div>

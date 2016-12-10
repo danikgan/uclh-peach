@@ -198,15 +198,61 @@
 				<!-- This section is called "Content" -->
 				<div class="not_menu" style="margin-bottom: 15px;">
 					<div>
-						<div align="right">Updated: 04/12/16</div>
+						<div align="right">Updated: 10/12/16</div>
 						<h3>
 							Form Renderer
 						</h3> <br>
 						
+						<table border="1" style="min-width: 100%;">
+							<tr class="sub-main-row">
+								<th class="td-pad" style="font-size: smaller;">Experiment Title</th>
+								<th class="td-pad" style="font-size: smaller;">Experiment Details</th>
+								<th class="td-pad" style="font-size: smaller;">Experiments Results</th>
+								<th class="td-pad" style="font-size: smaller;">Success / Failure</th>
+								<th class="td-pad" style="font-size: smaller;">Done By</th>
+								<th class="td-pad" style="font-size: smaller;">Date</th>
+							</tr>
+							<tr>
+								<td class="td-pad" style="font-size: smaller;">Experiment 1</td>
+								<td class="td-pad" style="font-size: smaller;">Trialled use of Python-Beautiful Soup for HTML data extraction.</td>
+								<td class="td-pad" style="font-size: smaller;">Numerical data pulled from HTML table and printed on console. </td>
+								<td class="td-pad" style="font-size: smaller;">Data successfully pulled, became familiar with how to use DOM for pulling data from HTML files.</td>
+								<td class="td-pad" style="font-size: smaller;">Connor Daly</td>
+								<td class="td-pad" style="font-size: smaller;">10/11/2016</td>
+							</tr>
+							<tr>
+								<td class="td-pad" style="font-size: smaller;">Experiment 2</td>
+								<td class="td-pad" style="font-size: smaller;">Used Request+Cheerio Node libraries to pull HTML data.</td>
+								<td class="td-pad" style="font-size: smaller;">Numerical data pulled from HTML table and printed on console. </td>
+								<td class="td-pad" style="font-size: smaller;">Established how to use Node.JS to extract HTML data (Node.js critical as required for compatibility with  Electrode) however not representative as did not pull react components.</td>
+								<td class="td-pad" style="font-size: smaller;">Connor Daly</td>
+								<td class="td-pad" style="font-size: smaller;">20/11/2016</td>
+							</tr>
+							<tr>
+								<td class="td-pad" style="font-size: smaller;">Experiment 3</td>
+								<td class="td-pad" style="font-size: smaller;">Built upon Experiment 2 to research how to export scraped data.</td>
+								<td class="td-pad" style="font-size: smaller;">Data pulled from experiment 2 successfully exported to text file. </td>
+								<td class="td-pad" style="font-size: smaller;">Established how to export data as a string to a text file within Node.js. This is potentially a means of exporting react components from form templates.</td>
+								<td class="td-pad" style="font-size: smaller;">Connor Daly</td>
+								<td class="td-pad" style="font-size: smaller;">21/11/2016</td>
+							</tr>
+							<tr>
+								<td class="td-pad" style="font-size: smaller;">Experiment 4</td>
+								<td class="td-pad" style="font-size: smaller;">Using jQuery Ajax, to update a webpage display without reloading entire page.</td>
+								<td class="td-pad" style="font-size: smaller;">Successfully used script to modify web page display using external text file data (upon button click). </td>
+								<td class="td-pad" style="font-size: smaller;">Gained a better understanding of how new data pulled can be used to update a website without reloading the entire page.</td>
+								<td class="td-pad" style="font-size: smaller;">Daniil Gannota</td>
+								<td class="td-pad" style="font-size: smaller;">22/11/2016</td>
+							</tr>
+						</table>
+						
+						<br>
 						<p>
-							Not available yet. More about description on 
-							<a href="https://docs.google.com/document/d/1RgglBMpaXH5WU2boiCXtZgoCvkrnhmBBaJNn9F5wMrk/edit" target="_blank"> this link</a>.
-						</p> <br>
+							Based upon our experiments, we first learned how the components from the template can be extracted from the markup templates using tags using Request and Cheerio. Then we learned how to export data from Node.js to an external text file. From there we worked on finding a way of using jQuery Ajax scripts to update the display of a web page, without reloading the entire page. From these experiments, we were able to design the architectural layout of how the form renderer is to work potentially. First, each form component will be pulled from the template individually, using tag ids. They will then be exported either then to a text file, whereupon it will be parsed to alter the form view, or directly to the HTML page. We are unsure how viable the latter option is at present, as we are dependent on Team 41 to finalise the requirements and design of the templates.
+						</p>
+						<p>
+							The prototype works as intended, however, given what we have at this stage, little idea of how the template is supposed to look, implementing the final PoC may prove trickier. The actual scripting tool use to update the webpage view after pulling the components may also differ in the PoC, as our team will likely develop with the React library, rather than jQuery.
+						</p>
 					</div>
 				</div>
 			</div>

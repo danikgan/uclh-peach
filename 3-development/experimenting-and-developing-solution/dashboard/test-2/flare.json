@@ -1,56 +1,43 @@
 {
- "name": "flare",
+ "name": "Test1d3",
  "children": [
   {
-   "name": "analytics",
+   "name": "1stsection",
    "children": [
+    {"name": "1.1", "size": 1082},
+    {"name": "1.2", "size": 1336},
+    {"name": "1.3", "size": 319},
+    {"name": "1.4", "size": 10498},
+    {"name": "1.5", "size": 2822},
+    {"name": "1.6", "size": 9983},
+    {"name": "1.7", "size": 2213},
+    {"name": "1.8", "size": 1681}
+   ]
+  },
+  {
+   "name": "2ndsection",
+   "children": [
+    {"name": "2.1", "size": 8258},
+    {"name": "2.2", "size": 10001},
     {
-     "name": "cluster",
+     "name": "2ndsub",
      "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "CommunityStructure", "size": 3812},
-      {"name": "HierarchicalCluster", "size": 6714},
-      {"name": "MergeEdge", "size": 743}
+      {"name": "2.2.1", "size": 9354},
+      {"name": "2.2.2", "size": 1233}
      ]
     },
+    {"name": "2.3", "size": 335},
+    {"name": "2.4", "size": 383},
+    {"name": "2.5", "size": 874},
     {
-     "name": "graph",
+     "name": "3rdsub",
      "children": [
-      {"name": "BetweennessCentrality", "size": 3534},
-      {"name": "LinkDistance", "size": 5731},
-      {"name": "MaxFlowMinCut", "size": 7840},
-      {"name": "ShortestPaths", "size": 5914},
-      {"name": "SpanningTree", "size": 3416}
-     ]
-    },
-    {
-     "name": "optimization",
-     "children": [
-      {"name": "AspectRatioBanker", "size": 7074}
+      {"name": "3.1", "size": 6367},
+      {"name": "3.2", "size": 1229},
+      {"name": "3.3", "size": 2059},
+      {"name": "3.4", "size": 2291}
      ]
     }
-   ]
-  },
-  {
-   "name": "display",
-   "children": [
-    {"name": "DirtySprite", "size": 8833},
-    {"name": "LineSprite", "size": 1732},
-    {"name": "RectSprite", "size": 3623},
-    {"name": "TextSprite", "size": 10066}
-   ]
-  },
-  {
-   "name": "physics",
-   "children": [
-    {"name": "DragForce", "size": 1082},
-    {"name": "GravityForce", "size": 1336},
-    {"name": "IForce", "size": 319},
-    {"name": "NBodyForce", "size": 10498},
-    {"name": "Particle", "size": 2822},
-    {"name": "Simulation", "size": 9983},
-    {"name": "Spring", "size": 2213},
-    {"name": "SpringForce", "size": 1681}
    ]
   }
  ]

@@ -227,4 +227,156 @@ $(document).ready(function(){
         $(".show-mockup-dg9").css("display", "none");
         $(".show-mockup-dg10").css("display", "block");
     });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    $(".mockup-uc1").click(function(){
+        $(".show-mockup-uc1").css("display", "block");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc2").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "block");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc3").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "block");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc4").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "block");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc5").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "block");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc6").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "block");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc7").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "block");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc8").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "block");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc9").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "block");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc10").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "block");
+        $(".show-mockup-uc11").css("display", "none");
+    });
+    $(".mockup-uc11").click(function(){
+        $(".show-mockup-uc1").css("display", "none");
+        $(".show-mockup-uc2").css("display", "none");
+        $(".show-mockup-uc3").css("display", "none");
+        $(".show-mockup-uc4").css("display", "none");
+        $(".show-mockup-uc5").css("display", "none");
+        $(".show-mockup-uc6").css("display", "none");
+        $(".show-mockup-uc7").css("display", "none");
+        $(".show-mockup-uc8").css("display", "none");
+        $(".show-mockup-uc9").css("display", "none");
+        $(".show-mockup-uc10").css("display", "none");
+        $(".show-mockup-uc11").css("display", "block");
+    });
 });

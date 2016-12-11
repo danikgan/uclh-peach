@@ -318,6 +318,48 @@ li.sub-li {margin-left: 15px;}
 
 
 
+
+
+
+
+
+.mockup-uc1 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc1 {min-width: 100%; display: block;}
+
+.mockup-uc2 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc2 {min-width: 100%; display: none;}
+
+.mockup-uc3 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc3 {min-width: 100%; display: none;}
+
+.mockup-uc4 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc4 {min-width: 100%; display: none;}
+
+.mockup-uc5 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc5 {min-width: 100%; display: none;}
+
+.mockup-uc6 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc6 {min-width: 100%; display: none;}
+
+.mockup-uc7 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc7 {min-width: 100%; display: none;}
+
+.mockup-uc8 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc8 {min-width: 100%; display: none;}
+
+.mockup-uc9 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc9 {min-width: 100%; display: none;}
+
+.mockup-uc10 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc10 {min-width: 100%; display: none;}
+
+.mockup-uc11 {width: 75px;height: 75px; background-color: rgba(194, 238, 255, 0.5); padding: 25px; border-radius: 15px;}
+.show-mockup-uc11 {min-width: 100%; display: none;}
+
+
+
+
+
 .td-pad {
 	padding: 3px 5px 3px 5px;
     border-collapse: collapse;

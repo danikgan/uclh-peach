@@ -321,6 +321,7 @@ li.sub-li {margin-left: 15px;}
 .td-pad {
 	padding: 3px 5px 3px 5px;
     border-collapse: collapse;
+    font-size: smaller;
 }
 .td-pad.centred {align-content: center;}
 .main-row {background-color: #4848ae;color: white;}
